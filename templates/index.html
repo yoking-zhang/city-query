@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID/区号/邮编/车牌/城市查询</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ID/区号/邮编/车牌/城市查询</h1>
+            <p class="subtitle">输入 ID 前缀、电话区号、邮政编码、车牌号或城市名称</p>
+        </header>
+
+        <main>
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="例如: 440305 / 0755 / 518000 / 粤B / 深圳"
+                    maxlength="20"
+                    autocomplete="off"
+                    autofocus
+                >
+                <span class="hint" id="hint">支持: 身份证前缀 | 区号 | 邮编 | 车牌 | 城市名称</span>
+            </div>
+
+            <div id="result" class="result"></div>
+        </main>
+
+        <footer>
+            <p>数据来源: 国家标准行政区划代码 &amp; 公民身份号码编制规则</p>
+        </footer>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
