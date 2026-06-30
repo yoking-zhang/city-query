@@ -89,7 +89,7 @@ python app.py
 
 ### 界面截图
 
-![界面预览](./screenshots/preview.png)
+![界面预览](https://cdn.jsdelivr.net/gh/yoking-zhang/city-query@main/screenshots/preview.png)
 
 ---
 
