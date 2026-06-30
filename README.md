@@ -256,6 +256,11 @@ city-query/
 │   └── style.css          # 样式表（现代、响应式设计）
 ├── templates/             # HTML 模板
 │   └── index.html         # 单页应用模板
+├── assets/
+│   └── logo.png           # 项目 Logo（256×256）
+├── generate_logo.py       # Logo 生成脚本
+├── screenshots/
+│   └── preview.png        # 界面截图
 └── README.md              # 本文件
 ```
 
