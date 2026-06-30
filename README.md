@@ -89,7 +89,7 @@ python app.py
 
 ### 界面截图
 
-> ![界面预览](./ScreenShot_2026-06-30_103127_520.png)
+![界面预览](./screenshots/preview.png)
 
 ---
 
